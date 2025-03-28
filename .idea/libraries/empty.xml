@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="empty">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Tests/bin/Debug/net6/EmptyFiles/archive/empty.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
