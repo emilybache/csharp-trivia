@@ -1191,7 +1191,10 @@
       "xunit.runner.visualstudio/2.4.5": {},
       "Trivia/1.0.0": {
         "runtime": {
-          "Trivia.dll": {}
+          "Trivia.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

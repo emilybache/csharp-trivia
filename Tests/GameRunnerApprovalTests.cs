@@ -2,11 +2,14 @@ using ApprovalTests;
 using ApprovalTests.Reporters;
 using Xunit;
 using System.IO;
+using System;
+using Trivia;
+
 
 public class GameRunnerApprovalTests
 {
     [Fact]
-    [UseReporter(typeof(WinMergeReporter))]
+    [UseReporter(typeof(DiffReporter))]
     public void GameRunner_Output_Should_Be_Approved()
     {
         // Arrange

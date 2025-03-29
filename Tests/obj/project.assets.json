@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "ApprovalTests/5.8.0": {
         "type": "package",
         "dependencies": {
@@ -1998,7 +1998,7 @@
       },
       "Trivia/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/Trivia.dll": {}
         },
@@ -6351,7 +6351,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "ApprovalTests >= 5.8.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "Trivia >= 1.0.0",
@@ -6376,15 +6376,14 @@
         "/Users/ivett/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
             "/Users/ivett/Documents/git/csharp-trivia/Trivia/Trivia.csproj": {
               "projectPath": "/Users/ivett/Documents/git/csharp-trivia/Trivia/Trivia.csproj"
@@ -6396,11 +6395,17 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "ApprovalTests": {
             "target": "Package",
@@ -6443,7 +6448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
