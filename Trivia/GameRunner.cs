@@ -15,6 +15,11 @@ namespace Trivia
             aGame.Add("Sue");
 
             var rand = new Random();
+            if (args.Length > 0 && int.TryParse(args[0], out var seed))
+            {
+                rand = new Random(seed);
+            }
+            
 
             do
             {
