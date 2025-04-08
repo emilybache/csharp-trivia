@@ -17,7 +17,7 @@ public class GameRunnerApprovalTests
         Console.SetOut(output);
 
         // Act
-        GameRunner.Main(new string[] { "36" });
+        GameRunner.Main(new string[] { "6" });
 
         // Assert
         Approvals.Verify(output.ToString());
