@@ -1,7 +1,9 @@
+using System;
 using ApprovalTests;
 using ApprovalTests.Reporters;
 using Xunit;
 using System.IO;
+using Trivia;
 
 public class GameRunnerApprovalTests
 {
